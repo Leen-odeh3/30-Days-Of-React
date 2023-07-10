@@ -1,0 +1,10 @@
+JSX stands for JavaScript XML and it is an XML-like syntax extension to ECMAScript. Basically it just provides the syntactic sugar for the React.createElement(type, props, ...children) function, giving us expressiveness of JavaScript along with HTML like template syntax.
+
+In the example below, the text inside <h1> tag is returned as JavaScript function to the render function.
+
+Ex:
+export default function App() {
+  return (
+      <h1 className="greeting">{"Hello, this is a JSX Code!"}</h1>
+  );
+}
