@@ -1,0 +1,28 @@
+What's the difference between axios and fetch which are used for making HTTP requests from a web browser?
+
+ans:-
+
+1.Syntax and ease of use:
+Axios: Axios provides a simple and intuitive syntax for making HTTP requests. It uses promises and provides a higher level of abstraction, allowing you to write cleaner code.
+Fetch: Fetch is a built-in web API in modern browsers that provides a native way to make HTTP requests. Its syntax is a bit more verbose and requires additional steps to handle response data.
+
+2.Browser support:
+Axios: Axios supports all major browsers, including older versions.
+Fetch: Fetch is supported by most modern browsers, but it may require a polyfill or transpiler to work with older browsers.
+
+3.Request and response handling:
+Axios: Axios provides built-in request and response interceptors, allowing you to easily modify requests or responses. It also supports automatic transformation of request and response data, such as JSON parsing or serialization.
+Fetch: Fetch provides a lower-level API and does not have built-in interceptors. You need to manually handle request and response modifications. It also requires additional steps to parse or serialize data.
+
+4.Error handling:
+Axios: Axios has built-in error handling and automatically rejects the promise on HTTP error status codes (e.g., 404 or 500). It also allows you to define global error handling for all requests.
+Fetch: Fetch does not reject the promise on HTTP error status codes by default. You need to check the response status manually and handle errors accordingly.
+
+5.Cross-origin requests:
+Axios: Axios supports cross-origin requests by default and handles CORS (Cross-Origin Resource Sharing) headers automatically.
+Fetch: Fetch also supports cross-origin requests but requires explicit handling of CORS headers and may involve additional configuration.
+
+--------
+In summary, Axios provides a more user-friendly and feature-rich API for making HTTP requests. 
+It offers better error handling, automatic data transformation, and built-in interceptors. Fetch, on the other hand, is a native browser API with a lower-level interface and
+requires more manual handling for certain tasks.
