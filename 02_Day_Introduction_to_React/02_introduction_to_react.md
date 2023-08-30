@@ -405,18 +405,11 @@ const app = (
 ```
 
 
-Let us apply some style to our JSX elements and see the result.
-
-![Styling JSX Element](../images/styling_jsx_element.png).
-
-Now, lets us apply style the header part only [Live on code pen](https://codepen.io/Asabeneh/full/ZEGBYBG).
-
 #### Style and className in JSX
 
 So far, we did not apply any style in the JSX elements. Now, let us add style to our JSX elements. Inline style became very popular after the emergence of react. Let us add border to the header JSX element.
 
-To add style to a JSX element we use inline style or className. We inject the style object using {}. Every CSS property becomes a key and every CSS property value becomes a value for the the object. For instance, in the example below, border is a key and '2px solid orange' is a value, color is a key and 'black' is a value, fontSize is a key and '18px' is a value. All two word CSS properties will change to camelCase when we use them as key in the CSS object in React or JavaScript.[Live on code pen](https://codepen.io/Asabeneh/full/ZEGBYbY).
-
+To add style to a JSX element we use inline style or className. We inject the style object using {}. Every CSS property becomes a key and every CSS property value becomes a value for the the object. For instance, in the example below, border is a key and '2px solid orange' is a value, color is a key and 'black' is a value, fontSize is a key and '18px' is a value. All two word CSS properties will change to camelCase when we use them as key in the CSS object in React or JavaScript.
 ```js
 const header = (
   <header
@@ -425,8 +418,7 @@ const header = (
     <h1>Welcome to 30 Days Of React</h1>
     <h2>Getting Started React</h2>
     <h3>JavaScript Library</h3>
-    <p>Asabeneh Yetayeh</p>
-    <small>Oct 2, 2020</small>
+   
   </header>
 )
 
@@ -439,8 +431,7 @@ const header = (
     <h1>Welcome to 30 Days Of React</h1>
     <h2>Getting Started React</h2>
     <h3>JavaScript Library</h3>
-    <p>Asabeneh Yetayeh</p>
-    <small>Oct 2, 2020</small>
+   
   </header>
 )
 ```
@@ -465,7 +456,6 @@ The id used in the input element is not for styling purpose, instead to refer th
 
 If class is used instead of className or for instead of htmlFor you will see such kind of warning.
 
-![Class Name warning](../images/className_warning.png)
 
 Now, you know how to use the inline style and how to use className. Let us style all the JSX elements.
 
@@ -509,8 +499,6 @@ Now, you know how to use the inline style and how to use className. Let us style
             <h1>Welcome to 30 Days Of React</h1>
             <h2>Getting Started React</h2>
             <h3>JavaScript Library</h3>
-            <p>Asabeneh Yetayeh</p>
-            <small>Oct 2, 2020</small>
           </div>
         </header>
       )
@@ -556,9 +544,8 @@ Now, you know how to use the inline style and how to use className. Let us style
 </html>
 ```
 
-![Styling all JSX elements](../images/styling_all_jsx_elements.png)
 
-Instead of style object using regular styling method is more easy than the one above. Now, let us use internal style to style all the JSX. It is also possible to use external styling method. [Live on code pen](https://codepen.io/Asabeneh/full/QWbGwge)
+Instead of style object using regular styling method is more easy than the one above. Now, let us use internal style to style all the JSX. It is also possible to use external styling method.
 
 ```html
 <!DOCTYPE html>
@@ -676,8 +663,7 @@ Instead of style object using regular styling method is more easy than the one a
             <h1>Welcome to 30 Days Of React</h1>
             <h2>Getting Started React</h2>
             <h3>JavaScript Library</h3>
-            <p>Instructor: Asabeneh Yetayeh</p>
-            <small>Date: Oct 1, 2020</small>
+           
           </div>
         </header>
       )
@@ -727,7 +713,6 @@ Instead of style object using regular styling method is more easy than the one a
 </html>
 ```
 
-![Internal Style](../images/internal_style.png)
 
 #### Injecting data to a JSX Element
 
@@ -737,9 +722,9 @@ So far, we used static data on the JSX elements, but we can also pass different 
 const welcome = 'Welcome to 30 Days Of React'
 const title = 'Getting Started React'
 const subtitle = 'JavaScript Library'
-const authorFirstName = 'Asabeneh'
-const authorLastName = 'Yetayeh'
-const date = 'Oct 1, 2020'
+const authorFirstName = 'xx'
+const authorLastName = 'yy'
+
 
 // JSX element, header
 const header = (
@@ -751,7 +736,6 @@ const header = (
       <p>
         Instructor: {authorFirstName} {authorLastName}
       </p>
-      <small>Date: {date}</small>
     </div>
   </header>
 )
@@ -767,9 +751,8 @@ In this section we inject only strings
 const welcome = 'Welcome to 30 Days Of React'
 const title = 'Getting Started React'
 const subtitle = 'JavaScript Library'
-const firstName = 'Asabeneh'
-const lastName = 'Yetayeh'
-const date = 'Oct 2, 2020'
+const firstName = 'xx'
+const lastName = 'yy'
 
 // JSX element, header
 
@@ -783,7 +766,6 @@ const header = (
       <p>
         Instructor: {firstName} {lastName}
       </p>
-      <small>Date: {date}</small>
     </div>
   </header>
 )
@@ -837,7 +819,6 @@ const main = (
 
 We can inject string, number, boolean, array data to JSX but we cannot directly inject an object. We should extract object values first or destructure the content of the object before we inject the data to the JSX element. For instance, let us write firstName and lastName inside an object and extract them to use them inside JSX.
 
-Now, let us put everything together. Here, in the example below, the data is injected dynamically to the JSX. [Live on code pen](https://codepen.io/Asabeneh/full/YzXWgpZ)
 
 ```html
 <!DOCTYPE html>
@@ -951,10 +932,10 @@ Now, let us put everything together. Here, in the example below, the data is inj
       const title = 'Getting Started React'
       const subtitle = 'JavaScript Library'
       const author = {
-        firstName: 'Asabeneh',
-        lastName: 'Yetayeh',
+        firstName: 'x',
+        lastName: 'y',
       }
-      const date = 'Oct 2, 2020'
+      
 
       // JSX element, header
       const header = (
@@ -966,7 +947,6 @@ Now, let us put everything together. Here, in the example below, the data is inj
             <p>
               Instructor: {author.firstName} {author.lastName}
             </p>
-            <small>Date: {date}</small>
           </div>
         </header>
       )
@@ -1038,7 +1018,6 @@ Now, let us put everything together. Here, in the example below, the data is inj
 </html>
 ```
 
-![Dynamic Data](../images/dynamic_data.png)
 
 As you can see the lists are all in one line. Therefore, we should format the list the way we want, before we inject it to JSX. In order to format the list, we should modify the array before we will inject it to JSX. We can modify the array using _map_. As a react developer you should have a very good understanding of functional programming(map, filter, reduce, find, some, every). If you don't have good understanding of functional programming, check out day 1.
 
@@ -1047,7 +1026,6 @@ const techs = ['HTML', 'CSS', 'JavaScript']
 const techsFormatted = techs.map((tech) => <li>{tech}</li>)
 ```
 
-In the following code example, the list is now containing list elements and it is formatted properly.
 
 ```html
 <!DOCTYPE html>
