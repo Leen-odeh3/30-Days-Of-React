@@ -1,0 +1,31 @@
+.form{
+    width:80%;
+    margin-top: 60px;
+    background-color: rgb(189, 228, 252);
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+}
+input{
+width: 170px;
+height: 30px;
+padding: 10px;
+border-radius: 6px;
+border: none;
+outline: none;
+margin-right: 20px;
+}
+button{
+    display: block;
+    border-radius: 6px;
+    background-color: rgb(255, 151, 151);
+    color: white;
+    width:260px;
+    height: 40px;
+    border: none;
+    margin: auto;
+   margin-top: 20px;
+}
+h1{
+    text-transform: uppercase;
+}
