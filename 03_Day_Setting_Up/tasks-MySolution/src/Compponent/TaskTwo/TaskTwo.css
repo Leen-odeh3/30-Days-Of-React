@@ -5,6 +5,8 @@
     padding: 30px;
     text-align: center;
     margin: auto;
+    margin-bottom: 60px;
+    border-radius: 7px;
 }
 input{
 width: 170px;
