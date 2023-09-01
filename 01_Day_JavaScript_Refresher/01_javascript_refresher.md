@@ -4,10 +4,9 @@
 
  
 
-<sub>Author:
 <a href="https://www.linkedin.com/in/leen-odeh3/" target="_blank">Leen Odeh</a><br>
 <small> August, 2023</small>
-</sub>
+
 
 </div>
 
@@ -2441,126 +2440,6 @@ console.log('Weight of an object in Newton: ', weightOfObject(100)) // 9.81 grav
 console.log('Weight of an object in Newton: ', weightOfObject(100, 1.62)) // gravity at surface of Moon
 ```
 
-#### Function declaration versus Arrow function
-
-It ill be covered in other time
-
-### 💻 Exercises
-
-##### Exercises: Level 1
-
-1. Declare a function _fullName_ and it takes firstName, lastName as a parameter and it returns your full - name.
-2. Declare a function _addNumbers_ and it takes two two parameters and it returns sum.
-3. Area of a circle is calculated as follows: _area = π x r x r_. Write a function which calculates \_areaOfCircle
-4. Temperature in oC can be converted to oF using this formula: _oF = (oC x 9/5) + 32_. Write a function which convert oC to oF _convertCelciusToFahrenheit_.
-5. Body mass index(BMI) is calculated as follows: _bmi = weight in Kg / (height x height) in m2_. Write a function which calculates _bmi_. BMI is used to broadly define different weight groups in adults 20 years old or older.Check if a person is _underweight, normal, overweight_ or _obese_ based the information given below.
-
-   - The same groups apply to both men and women.
-   - _Underweight_: BMI is less than 18.5
-   - _Normal weight_: BMI is 18.5 to 24.9
-   - _Overweight_: BMI is 25 to 29.9
-   - _Obese_: BMI is 30 or more
-
-6. Write a function called _checkSeason_, it takes a month parameter and returns the season:Autumn, Winter, Spring or Summer.
-
-##### Exercises: Level 2
-
-1. Quadratic equation is calculated as follows: _ax2 + bx + c = 0_. Write a function which calculates value or values of a quadratic equation, _solveQuadEquation_.
-
-   ```js
-   console.log(solveQuadratic()) // {0}
-   console.log(solveQuadratic(1, 4, 4)) // {-2}
-   console.log(solveQuadratic(1, -1, -2)) // {2, -1}
-   console.log(solveQuadratic(1, 7, 12)) // {-3, -4}
-   console.log(solveQuadratic(1, 0, -4)) //{2, -2}
-   console.log(solveQuadratic(1, -1, 0)) //{1, 0}
-   ```
-
-2. Declare a function name _printArray_. It takes array as a parameter and it prints out each value of the array.
-3. Write a function name _showDateTime_ which shows time in this format: 08/01/2020 04:08 using the Date object.
-
-   ```sh
-   showDateTime()
-   08/01/2020 04:08
-   ```
-
-4. Declare a function name _swapValues_. This function swaps value of x to y.
-
-   ```js
-   swapValues(3, 4) // x => 4, y=>3
-   swapValues(4, 5) // x = 5, y = 4
-   ```
-
-5. Declare a function name _reverseArray_. It takes array as a parameter and it returns the reverse of the array (don't use method).
-
-   ```js
-   console.log(reverseArray([1, 2, 3, 4, 5]))
-   //[5, 4, 3, 2, 1]
-   console.log(reverseArray(['A', 'B', 'C']))
-   //['C', 'B', 'A']
-   ```
-
-6. Declare a function name _capitalizeArray_. It takes array as a parameter and it returns the - capitalizedarray.
-7. Declare a function name _addItem_. It takes an item parameter and it returns an array after adding the item
-8. Declare a function name _removeItem_. It takes an index parameter and it returns an array after removing an ite
-9. Declare a function name evensAndOdds . It takes a positive integer as parameter and it counts number of evens and odds in the number.
-
-```sh
-evensAndOdds(100);
-The number of odds are 50.
-The number of evens are 51.
-```
-
-13. Write a function which takes any number of arguments and return the sum of the arguments
-
-```js
-sum(1, 2, 3) // -> 6
-sum(1, 2, 3, 4) // -> 10
-```
-
-1.  Declare a function name _userIdGenerator_. When this function is called it generates seven character id. The function return the id.
-
-```sh
-console.log(userIdGenerator());
-41XTDbE
-```
-
-##### Exercises: Level 3
-
-1. Declare a function name _userIdGeneratedByUser_. It doesn’t take any parameter but it takes two inputs using prompt(). One of the input is the number of characters and the second input is the number of ids which are supposed to be generated.
-
-   ```sh
-   userIdGeneratedByUser()
-   'kcsy2
-   SMFYb
-   bWmeq
-   ZXOYh
-   2Rgxf
-   '
-   userIdGeneratedByUser()
-   '1GCSgPLMaBAVQZ26
-   YD7eFwNQKNs7qXaT
-   ycArC5yrRupyG00S
-   UbGxOFI7UXSWAyKN
-   dIV0SSUTgAdKwStr
-   '
-   ```
-
-2. Write a function **_generateColors_** which can generate any number of hexa or rgb colors.
-
-   ```js
-   console.log(generateColors('hexa', 3)) // ['#a3e12f', '#03ed55', '#eb3d2b']
-   console.log(generateColors('hexa', 1)) // '#b334ef'
-   console.log(generateColors('rgb', 3)) // ['rgb(5, 55, 175)', 'rgb(50, 105, 100)', 'rgb(15, 26, 80)']
-   console.log(generateColors('rgb', 1)) // 'rgb(33,79, 176)'
-   ```
-
-3. Call your function _shuffleArray_, it takes an array as a parameter and it returns a shuffled array
-4. Call your function _factorial_, it takes a whole number as a parameter and it return a factorial of the number
-5. Call your function _isEmpty_, it takes a parameter and it checks if it is empty or not
-
-6. Write a function called _average_, it takes an array parameter and returns the average of the items. Check if all the array items are number types. If not give return reasonable feedback.
-
 ### 9. Higher Order Function
 
 Higher order functions are functions which take other function as a parameter or return a function as a value. The function passed as a parameter is called callback.
@@ -2787,7 +2666,7 @@ console.log(frontEnd, backEnd)
 const fruitsAndVegetables = [['banana', 'orange', 'mango', 'lemon'],  ['Tomato', 'Potato', 'Cabbage', 'Onion', 'Carrot']]
 
 const [fruits, vegetables] = fruitsAndVegetables
-console.log(fruits, vegetables]
+console.log(fruits, vegetables)
 
 //['banana', 'orange', 'mango', 'lemon']
 
@@ -3621,44 +3500,6 @@ console.log(someAreEvens) // true
 console.log(someAreOdds)  // false
 ```
 
-#### Exercises
-
-```js
-const products = [
-  { product: 'banana', price: 3 },
-  { product: 'mango', price: 6 },
-  { product: 'potato', price: ' ' },
-  { product: 'avocado', price: 8 },
-  { product: 'coffee', price: 10 },
-  { product: 'tea', price: '' },
-]
-```
-
-1. Print the price of each product using forEach
-2. Print the product items as follows using forEach
-
-   ```sh
-   The price of banana is 3 euros.
-   The price of mango is 6 euros.
-   The price of potato is unknown.
-   The price of avocado is 8 euros.
-   The price of coffee is 10 euros.
-   The price of tea is unknown.
-   ```
-
-3. Calculate the sum of all the prices using forEach
-4. Create an array of prices using map and store it in a variable prices
-5. Filter products with prices
-6. Use method chaining to get the sum of the prices(map, filter, reduce)
-7. Calculate the sum of all the prices using reduce only
-8. Find the first product which doesn't have a price value
-9. Find the index of the first product which does not have price value
-10. Check if some products do not have a price value
-11. Check if all the products have price value
-12. Explain the difference between forEach, map, filter and reduce
-13. Explain the difference between filter, find and findIndex
-14. Explain the difference between some and every
-
 ### 12. Classes
 
 JavaScript is an object oriented programming language. Everything in JavScript is an object, with its properties and methods. We create class to create an object. A Class is like an object constructor, or a "blueprint" for creating objects. We instantiate a class to create an object. The class defines attributes and the behavior of the object, while the object, on the other hand, represents the class.
@@ -4279,53 +4120,7 @@ Lidiya Tekle is 28. She lives in Helsinki, Finland. He knows Planning, Managing 
 
 Now, the getPersonInfo method has been overridden and it identifies if the person is male or female.
 
-#### Exercises
 
-##### Exercises Level 1
-
-1. Create an Animal class. The class will have name, age, color, legs properties and create different methods
-2. Create a Dog and Cat child class from the Animal Class.
-
-##### Exercises Level 2
-
-1. Override the method you create in Animal class
-
-##### Exercises Level 3
-
-1. Let's try to develop a program which calculate measure of central tendency of a sample(mean, median, mode) and measure of variability(range, variance, standard deviation). In addition to those measures find the min, max, count, percentile, and frequency distribution of the sample. You can create a class called Statistics and create all the functions which do statistical calculations as method for the Statistics class. Check the output below.
-
-```JS
-ages = [31, 26, 34, 37, 27, 26, 32, 32, 26, 27, 27, 24, 32, 33, 27, 25, 26, 38, 37, 31, 34, 24, 33, 29, 26]
-
-console.log('Count:', statistics.count()) // 25
-console.log('Sum: ', statistics.sum()) // 744
-console.log('Min: ', statistics.min()) // 24
-console.log('Max: ', statistics.max()) // 38
-console.log('Range: ', statistics.range() // 14
-console.log('Mean: ', statistics.mean()) // 30
-console.log('Median: ',statistics.median()) // 29
-console.log('Mode: ', statistics.mode()) // {'mode': 26, 'count': 5}
-console.log('Variance: ',statistics.var()) // 17.5
-console.log('Standard Deviation: ', statistics.std()) // 4.2
-console.log('Variance: ',statistics.var()) // 17.5
-console.log('Frequency Distribution: ',statistics.freqDist()) // [(20.0, 26), (16.0, 27), (12.0, 32), (8.0, 37), (8.0, 34), (8.0, 33), (8.0, 31), (8.0, 24), (4.0, 38), (4.0, 29), (4.0, 25)]
-```
-
-```sh
-// you output should look like this
-console.log(statistics.describe())
-Count: 25
-Sum:  744
-Min:  24
-Max:  38
-Range:  14
-Mean:  30
-Median:  29
-Mode:  (26, 5)
-Variance:  17.5
-Standard Deviation:  4.2
-Frequency Distribution: [(20.0, 26), (16.0, 27), (12.0, 32), (8.0, 37), (8.0, 34), (8.0, 33), (8.0, 31), (8.0, 24), (4.0, 38), (4.0, 29), (4.0, 25)]
-```
 
 ### 13 Document Object Model(DOM)
 
@@ -4358,8 +4153,5 @@ So do not directly manipulate the DOM if you are using react. The only place we 
 </html>
 ```
 
-🌕 You are amazing! You have just completed day 1 challenge and you are on your way to greatness. Now you are a JavaScript Ninja and ready to dive into React.
-
-🎉 CONGRATULATIONS ! 🎉
 
 
