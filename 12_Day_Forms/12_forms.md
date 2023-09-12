@@ -1,35 +1,3 @@
-<div align="center">
-  <h1> 30 Days Of React: Forms</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
-
-<sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> October, 2020</small>
-</sub>
-
-</div>
-
-[<< Day 11](../11_Day_Events/11_events.md) | [Day 13 >>](../13_Day_Controlled_Versus_Uncontrolled_Input/13_uncontrolled_input.md)
-
-![30 Days of React banner](../images/30_days_of_react_banner_day_12.jpg)
-
-- [Forms](#forms)
-  - [Getting data from an input field](#getting-data-from-an-input-field)
-  - [Getting multiple input data from form](#getting-multiple-input-data-from-form)
-  - [Get data from different input field types](#get-data-from-different-input-field-types)
-  - [Form Validation](#form-validation)
-  - [What is validation?](#what-is-validation)
-  - [What is the purpose of validation](#what-is-the-purpose-of-validation)
-  - [Validation Types](#validation-types)
-- [Exercises](#exercises)
-  - [Exercises: Level 1](#exercises-level-1)
-  - [Exercises: Level 2](#exercises-level-2)
-  - [Exercises: Level 3](#exercises-level-3)
 
 # Forms
 
@@ -916,34 +884,3 @@ const rootElement = document.getElementById('root')
 ReactDOM.render(<App />, rootElement)
 ```
 
-# Exercises
-
-## Exercises: Level 1
-
-1. What is the importance of form?
-2. How many input types do you know?
-3. Mention at least four attributes of an input element
-4. What is the importance of htmlFor?
-5. Write an input type which is not given in the example if there is?
-6. What is a controlled input?
-7. What do you need to write a controlled input?
-8. What event type do you use to listen changes on an input field?
-9. What is the value of a checked checkbox?
-10. When do you use onChange, onBlur, onSubmit?
-11. What is the purpose of writing e.preventDefault() inside the submit handler method?
-12. How do you bind data in React? The first input field example is data binding in React.
-13. What is validation?
-14. What is the event type you use to listen when an input changes?
-15. What are event types do you use to validate an input?
-
-## Exercises: Level 2
-
-1. Validate the form given above (a gif image or a video will be provided later). First try to validate without using any library then try it with [validator.js](https://www.npmjs.com/package/validator).
-
-## Exercises: Level 3
-
-Coming ..
-
-🎉 CONGRATULATIONS ! 🎉
-
-[<< Day 11](../11_Day_Events/11_events.md) | [Day 13 >>](../13_Day_Controlled_Versus_Uncontrolled_Input/13_uncontrolled_input.md)
