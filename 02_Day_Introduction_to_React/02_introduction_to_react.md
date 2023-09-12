@@ -1,46 +1,4 @@
-<div align="center">
-  <h1> 30 Days Of React: Getting Started React</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
 
-<sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> October, 2020</small>
-</sub>
-
-</div>
-
-[<< Day 1](../01_Day_JavaScript_Refresher/01_javascript_refresher.md) | [Day 3 >>](../03_Day_Setting_Up/03_setting_up.md)
-
-![30 Days of React banner](../images/30_days_of_react_banner_day_2.jpg)
-
-- [Getting Started React](#getting-started-react)
-  - [1. What is React?](#1-what-is-react)
-  - [2. Why React?](#2-why-react)
-    - [React vs Vue popularity in October 2020](#react-vs-vue-popularity-in-october-2020)
-    - [React vs Vue popularity in February 2020](#react-vs-vue-popularity-in-february-2020)
-  - [3. JSX](#3-jsx)
-    - [JSX Element](#jsx-element)
-    - [Commenting a JSX element](#commenting-a-jsx-element)
-    - [Rendering a JSX Element](#rendering-a-jsx-element)
-    - [Style and className in JSX](#style-and-classname-in-jsx)
-    - [Injecting data to a JSX Element](#injecting-data-to-a-jsx-element)
-      - [Injecting a string to a JSX Element](#injecting-a-string-to-a-jsx-element)
-      - [Injecting a number to a JSX Element](#injecting-a-number-to-a-jsx-element)
-      - [Injecting an array to a JSX Element](#injecting-an-array-to-a-jsx-element)
-      - [Injecting an object to a JSX Element](#injecting-an-object-to-a-jsx-element)
-  - [Exercises](#exercises)
-    - [Exercises: What is React?](#exercises-what-is-react)
-    - [Exercises: Why React?](#exercises-why-react)
-    - [Exercises: JSX](#exercises-jsx)
-    - [Exercises: JSX Elements](#exercises-jsx-elements)
-    - [Exercises: Inline Style](#exercises-inline-style)
-    - [Exercises: Internal Styles](#exercises-internal-styles)
-    - [Exercise: Inject data to JSX](#exercise-inject-data-to-jsx)
 
 ## Getting Started React
 
@@ -1544,61 +1502,7 @@ As you can see above, now the lists are formatted properly, but there is a warni
 </html>
 ```
 
-![Removing the warning ](../images/removing_unique_id_warning.png)
+
 
 Now, you have a very good understanding of how to create JSX elements and also how to inject data to JSX. In the next section, we will talk about how to use create-react-app and components. Components are more powerful and useful than JSX.
 
-🌕 You are awesome. You have just completed day 2 challenges and you are two steps ahead on your way to greatness. Now do some exercises for your brain and for your muscle.
-
-### Exercises
-
-#### Exercises: What is React?
-
-1. What is React?
-2. What is a library?
-3. What is a single page application?
-4. What is a component ?
-5. What is the latest version of React?
-6. What is DOM?
-7. What is React Virtual DOM?
-8. What does a web application or a website(composed of) have?
-
-#### Exercises: Why React?
-
-1. Why did you chose to use react?
-2. What measures do you use to know popularity ?
-3. What is more popular, React or Vue ?
-
-#### Exercises: JSX
-
-1. What is an HTML element?
-2. How to write a self closing HTML element?
-3. What is an HTML attribute? Write some of them
-4. What is JSX?
-5. What is babel?
-6. What is a transpiler?
-
-#### Exercises: JSX Elements
-
-1. What is a JSX element?
-2. Write your name in a JSX element and store it in a name variable
-3. Write a JSX element which displays your full name, country, title, gender, email, phone number. Use h1 for the name and p for the rest of the information and store it in a user variable
-4. Write a footer JSX element
-
-#### Exercises: Inline Style
-
-1. Create a style object for the main JSX
-2. Create a style object for the footer and app JSX
-3. Add more styles to the JSX elements
-
-#### Exercises: Internal Styles
-
-1. Apply different styles to your JSX elements
-
-#### Exercise: Inject data to JSX
-
-1. Practice how to make JSX element and injecting dynamic data(string, number, boolean, array, object)
-
-🎉 CONGRATULATIONS ! 🎉
-
-[<< Day 1](../01_Day_JavaScript_Refresher/01_javascript_refresher.md) | [Day 3 >>](../03_Day_Setting_Up/03_setting_up.md)
