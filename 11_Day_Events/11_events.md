@@ -1,29 +1,3 @@
-<div align="center">
-  <h1> 30 Days Of React: Events</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
-
-<sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> October, 2020</small>
-</sub>
-
-</div>
-
-[<< Day 10](../10_React_Project_Folder_Structure/10_react_project_folder_structure.md) | [Day 12 >>](../12_Day_Forms/12_forms.md)
-
-![30 Days of React banner](../images/30_days_of_react_banner_day_8.jpg)
-
-- [Events](#events)
-  - [What is an event?](#what-is-an-event)
-- [Exercises](#exercises)
-  - [Exercises: Level 1](#exercises-level-1)
-  - [Exercises: Level 2](#exercises-level-2)
-  - [Exercises: Level 3](#exercises-level-3)
 
 # Events
 
@@ -209,31 +183,3 @@ const rootElement = document.getElementById('root')
 ReactDOM.render(<App />, rootElement)
 ```
 
-# Exercises
-
-## Exercises: Level 1
-
-1. What is an event?
-2. What is the different between an HTML element event and React event?
-3. Write at least 4 keyboard events?
-4. Write at least 8 mouse events?
-5. What are the most common mouse and keyboard events?
-6. Write an event specific to input element?
-7. Write an event specific to form element?
-8. Display the coordinate of the view port when a mouse is moving on the body?
-9. What is the difference between onInput, onChange and onBlur?
-10. Where do we put the onSubmit event ?
-
-## Exercises: Level 2
-
-Implement the following using onMouseEnter event
-
-![On mouse enter event](../images/react_event_on_mouse_enter.gif)
-
-## Exercises: Level 3
-
-Coming
-
-🎉 CONGRATULATIONS ! 🎉
-
-[<< Day 10](../10_React_Project_Folder_Structure/10_react_project_folder_structure.md) | [Day 12 >>](../12_Day_Forms/12_forms.md)
