@@ -1,22 +1,4 @@
-<div align="center">
-  <h1> 30 Days Of React: Conditional Rendering</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
 
-<sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> October, 2020</small>
-</sub>
-
-</div>
-
-[<< Day 8](../08_Day_States/08_states.md) | [Day 10 >>](../10_React_Project_Folder_Structure/10_react_project_folder_structure.md)
-
-![30 Days of React banner](../images/30_days_of_react_banner_day_9.jpg)
 
 # Conditional Rendering
 
@@ -757,26 +739,3 @@ class App extends React.Component {
 const rootElement = document.getElementById('root')
 ReactDOM.render(<App />, rootElement)
 ```
-## Testimony
-Now it is time to express your thoughts about the Author and 30DaysOfReact. You can leave your testimonial on this [link](https://testimonify.herokuapp.com/)
-
-## Exercises
-
-### Exercises: Level 1
-
-1. What is conditional rendering?
-2. How do you implement conditional rendering?
-3. Which method of conditional rendering do you prefer to use?
-
-### Exercises: Level 2
-
-1. Make a single page application which changes the body of the background based on the season of the year(Autumn, Winter, Spring, Summer)
-2. Make a single page application which change the body of the background based on the time of the day(Morning, Noon, Evening, Night)
-
-### Exercises: Level 3
-
-1. Fetching data takes some amount of time. A user has to wait until the data get loaded. Implement a loading functionality of a data is not fetched yet. You can simulate the delay using setTimeout.
-
-🎉 CONGRATULATIONS ! 🎉
-
-[<< Day 8](../08_Day_States/08_states.md) | [Day 10 >>](../10_React_Project_Folder_Structure/10_react_project_folder_structure.md)
