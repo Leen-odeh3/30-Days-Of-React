@@ -1,41 +1,3 @@
-<div align="center">
-  <h1> 30 Days Of React: Props </h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
-
-<sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> October, 2020</small>
-</sub>
-
-</div>
-
-[<< Day 4](../04_Day_Component/04_components.md) | [Day 6 >>](../06_Day_Map_List_Keys/06_map_list_keys.md)
-
-![30 Days of React banner](../images/30_days_of_react_banner_day_5.jpg)
-
-- [Props](#props)
-  - [Props in Functional Component](#props-in-functional-component)
-  - [What is props?](#what-is-props)
-  - [Props object](#props-object)
-    - [Different data type props](#different-data-type-props)
-    - [String props type](#string-props-type)
-    - [Number props type](#number-props-type)
-    - [Boolean props type](#boolean-props-type)
-    - [Array props type](#array-props-type)
-    - [Object props type](#object-props-type)
-    - [Function prop types](#function-prop-types)
-  - [Destructuring props](#destructuring-props)
-  - [propTypes](#proptypes)
-  - [defaultProps](#defaultprops)
-- [Exercises: Components and Props](#exercises-components-and-props)
-  - [Exercises: Level 1](#exercises-level-1)
-  - [Exercises: Level 2](#exercises-level-2)
-  - [Exercises: Level 3](#exercises-level-3)
 
 # Props
 
@@ -1065,35 +1027,4 @@ The defaultProps can be used when we want to have some default prop types for a 
 
 We will cover propTypes in detail in other sections.
 
-# Exercises: Components and Props
 
-## Exercises: Level 1
-
-1. What is props in a React component ?
-2. How do you access props in a React component ?
-3. What data types can we pass as props to components ?
-4. What is a propTypes?
-5. What is a default propTypes?
-
-## Exercises: Level 2
-
-1. Create a functional component and display the following images
-   ![Front end](../images/frontend_technologies.png)
-
-2. Use functional component to create the following design
-
-![News Letter](../images/news_letter_design.png)
-
-## Exercises: Level 3
-
-1.  Use the given hexadecimal color generator in the example to create these random colors. If you don't know how to generate the hexadecimal color you can use [dummy data generator](https://www.30daysofreact.com/dummy-data)
-
-![Hexadecimal colors](../images/hexadecimal_color_exercise.png)
-
-2. Use functional component to design the following user card.
-
-![User Card](../images/user_card_design_jsx.png)
-
-🎉 CONGRATULATIONS ! 🎉
-
-[<< Day 4](../04_Day_Component/04_components.md) | [Day 6 >>](../06_Day_Map_List_Keys/06_map_list_keys.md)
