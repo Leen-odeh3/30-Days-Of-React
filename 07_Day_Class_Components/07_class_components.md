@@ -1,30 +1,4 @@
-<div align="center">
-  <h1> 30 Days Of React: Class Components </h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
 
-<sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> October, 2020</small>
-</sub>
-
-</div>
-
-[<< Day 6](../06_Day_Map_List_Keys/06_map_list_keys.md) | [Day 8 >>](../08_Day_States/08_states.md)
-
-![30 Days of React banner](../images/30_days_of_react_banner_day_7.jpg)
-
-- [Class Components](#class-components)
-  - [Accessing props in Class components](#accessing-props-in-class-components)
-  - [Methods in Class based component](#methods-in-class-based-component)
-- [Exercises](#exercises)
-  - [Exercises: Level 1](#exercises-level-1)
-  - [Exercises: Level 2](#exercises-level-2)
-  - [Exercises: Level 3](#exercises-level-3)
 
 # Class Components
 
@@ -818,28 +792,3 @@ ReactDOM.render(<App />, rootElement)
 Most of the time the container or the parent component can be written as class component and others as functional or presentational components. Data usually flows from parent components to child component and it is unidirectional. However, the latest version of react can allow us to write every component in our application only with functional components. This was impossible in previous versions.
 In next section, we will cover state which is the heart of React. State allows React component to rerender when whenever there is a change in state.
 
-# Exercises
-
-## Exercises: Level 1
-
-1. How do you write a pure JavaScript function
-2. What is inheritance and how do you make a child from a parent class?
-3. What is class based React component ?
-4. What is the difference between functional React component and class based React component ?
-5. When do we need to use class based components instead of functional components
-6. What is the use cases of class based component ?
-7. Which type of component do use most frequently ? functional or class-based component
-8. What is React life cycle ? (not covered yet) ?
-9. What is state in React ? (not covered yet)
-
-## Exercises: Level 2
-
-Learn more about class based component by changing previous days exercises to class based components
-
-## Exercises: Level 3
-
-Coming ...
-
-🎉 CONGRATULATIONS ! 🎉
-
-[<< Day 6](../06_Day_Map_List_Keys/06_map_list_keys.md) | [Day 8 >>](../08_Day_States/08_states.md)
