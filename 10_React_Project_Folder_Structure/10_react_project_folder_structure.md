@@ -1,43 +1,3 @@
-<div align="center">
-  <h1> 30 Days Of React: React Project Folder Structure</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
-
-<sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> October, 2020</small>
-</sub>
-
-</div>
-
-[<< Day 9](../09_Day_Conditional_Rendering/09_conditional_rendering.md) | [Day 11 >>](../11_Day_Events/11_events.md)
-
-![30 Days of React banner](../images/30_days_of_react_banner_day_10.jpg)
-
-- [React Project Folder Structure and File Naming](#react-project-folder-structure-and-file-naming)
-  - [File Naming](#file-naming)
-  - [Folder](#folder)
-  - [Components Folder](#components-folder)
-  - [Fragments](#fragments)
-- [Exercises](#exercises)
-  - [Exercises:Level 1](#exerciseslevel-1)
-  - [Exercises:Level 2](#exerciseslevel-2)
-  - [Exercises: Level 3](#exercises-level-3)
-
-# React Project Folder Structure and File Naming
-
-There is no strict way to use a single folder structure or file naming in React project. Most of the time, these kind of choice can be made by a team. Sometimes a company may have a developed guidelines about what code conventions to follow, folder structure and file naming. There is no right or wrong way of structuring a React project but some structures are better than the others for scalability,maintainability, ease of working on files and easy to understand structure. If you like to learn further about folder structure you may check the following articles.
-
-- [React Folder Structure by https://www.devaradise.com ](https://www.devaradise.com/react-project-folder-structure)
-- [React Folder Structure by www.robinwieruch.de ](https://www.robinwieruch.de/react-folder-structure)
-- [React Folder Structure by Faraz Ahmad](https://dev.to/farazamiruddin/an-opinionated-guide-to-react-folder-structure-file-naming-1l7i)
-- [React Folder Structure by https://maxrozen.com/](https://maxrozen.com/guidelines-improve-react-app-folder-structure/)
-
-I use a mix of different conventions. If you like you can follow it but please stick in a structure which you think makes sense for you.
 
 ## File Naming
 
@@ -596,28 +556,3 @@ class App extends Component {
   }
 }
 ```
-
-Well done. Time to do some exercises for your brain and muscles.
-
-# Exercises
-
-## Exercises:Level 1
-
-1. What is the importance of React Folder Structure and File Naming
-2. How do you export file
-3. How do you  import file
-4. Make a component of module and export it as named or default export
-5. Make a component or module and import it
-6. Change all the components you have to different folder structure
-
-## Exercises:Level 2
-
-1. Make a simple portfolio using the components we have created so far. Implement a dark mode by using the function we wrote on day 8 challenge.
-
-## Exercises: Level 3
-
-Coming
-
-🎉 CONGRATULATIONS ! 🎉
-
-[<< Day 9](../09_Day_Conditional_Rendering/09_conditional_rendering.md) | [Day 11 >>](../11_Day_Events/11_events.md)
