@@ -1,36 +1,3 @@
-<div align="center">
-  <h1> 30 Days Of React: React Router</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
-
-<sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> October, 2020</small>
-</sub>
-
-</div>
-
-[<< Day 16](../16_Higher_Order_Component/16_higher_order_component.md) | [Day 18 >>](../18_projects/18_projects.md)
-
-![30 Days of React banner](../images/30_days_of_react_banner_day_17.jpg)
-
-- [React Router](#react-router)
-  - [What is React Router ?](#what-is-react-router-)
-  - [BroswerRouter](#broswerrouter)
-  - [Route](#route)
-  - [Switch](#switch)
-  - [NavLink](#navlink)
-  - [Nested Routing](#nested-routing)
-  - [Redirect](#redirect)
-  - [Prompt](#prompt)
-- [Exercises](#exercises)
-  - [Exercises: Level 1](#exercises-level-1)
-  - [Exercises: Level 2](#exercises-level-2)
-  - [Exercises: Level 3](#exercises-level-3)
 
 # React Router
 
@@ -1715,22 +1682,3 @@ const rootElement = document.getElementById('root')
 ReactDOM.render(<App />, rootElement)
 ```
 
-# Exercises
-
-## Exercises: Level 1
-
-1. What package do you use to implement routing in react?
-2. What is the default export in react-router-dom?
-3. What is the use of the following Components(Route, NavLink, Switch, Redirect, Prompt)
-
-## Exercises: Level 2
-
-Now, you know about React router. Build your portfolio with React and implement React router for navigation.
-
-## Exercises: Level 3
-
-coming
-
-🎉 CONGRATULATIONS ! 🎉
-
-[<< Day 16](../16_Higher_Order_Component/16_higher_order_component.md) | [Day 18 >>](../18_projects/18_projects.md)
