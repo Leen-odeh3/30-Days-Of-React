@@ -10,9 +10,8 @@ Huge thanks to <a href="https://github.com/Asabeneh">Asabeneh </a> for this awes
 
 ## Table of Contents
 
-- [Days](#days)
 - [Installation](#installation)
-- [Usage](#usage)
+
 - [Contributing](#contributing)
 
 
